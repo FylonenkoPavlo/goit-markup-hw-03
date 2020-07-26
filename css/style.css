@@ -1,0 +1,215 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --title-dark-theme-color: #ffffff;
+  --title-light-theme-color: #212121;
+  --modal-btn-color: #2196f3;
+  --modal-btn-text-color: #ffffff;
+  --text-dark-theme-color: rgba(255, 255, 255, 0.6);
+  --text-light-theme-color: #757575;
+  --accent-color: #2196f3;
+
+  --portfolio-butto-color: #f5f4fa;
+}
+
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--text-light-theme-color);
+
+  background-color: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/* HEADER */
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 26px;
+  line-height: 1.19;
+
+  text-decoration: none;
+
+  color: var(--title-light-theme-color);
+}
+.logo .logo-accent {
+  color: var(--accent-color);
+}
+
+.navigation-list-link,
+.header-tel-link,
+.header-email-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--title-light-theme-color);
+}
+
+.header-tel-link,
+.header-email-link {
+  font-style: normal;
+}
+
+.navigation-list-link:focus,
+.navigation-list-link:hover,
+.header-tel-link:focus,
+.header-tel-link:hover,
+.header-email-link:focus,
+.header-email-link:hover {
+  color: var(--accent-color);
+}
+
+/* HERO SECTION */
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--title-dark-theme-color);
+  background-color: var(--accent-color); /* заглушка */
+}
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--modal-btn-text-color);
+  background-color: var(--modal-btn-color);
+}
+
+/* Почему мы */
+
+.about-us-list-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: var(--title-light-theme-color);
+}
+/* Чем мы занимаемся */
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+
+  color: var(--title-light-theme-color);
+}
+
+.what-we-do-list-link >h3/* заглушка без H3 работает */ {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: var(--title-dark-theme-color);
+  background-color: var(--accent-color); /* заглушка */
+}
+
+/* Наша команда */
+.out-team-list-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+
+  color: var(--title-light-theme-color);
+}
+
+.our-team-list-position {
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+}
+
+/* Постоянные клиенты */
+
+/* FOOTER */
+.logo .logo-footer-accent {
+  color: var(--title-dark-theme-color);
+  background-color: var(--accent-color); /* заглушка */
+}
+.footer-tel,
+.footer-email,
+.footer-adress {
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: var(--title-dark-theme-color);
+  background-color: var(--accent-color); /* заглушка */
+}
+.footer-tel,
+.footer-email {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+
+  text-transform: uppercase;
+
+  color: var(--title-dark-theme-color);
+  background-color: var(--accent-color); /* заглушка */
+}
+
+/* СТРАНИЦА ПОРТФОЛИО */
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+
+  color: var(--title-light-theme-color);
+  background-color: var(--portfolio-butto-color);
+}
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: var(--title-dark-theme-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-list-text-hover {
+  font-size: 18px;
+  line-height: 1.56;
+
+  color: var(--title-dark-theme-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-list-header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+
+  letter-spacing: 0.06em;
+
+  color: var(--title-light-theme-color);
+}
+
+.portfolio-list-project-type {
+  font-size: 16px;
+  line-height: 1.87;
+}
