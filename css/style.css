@@ -374,6 +374,7 @@ body {
 }
 
 .portfolio-list-text-hover {
+  display: none;
   padding: 24px;
   margin: 0;
   font-size: 18px;
