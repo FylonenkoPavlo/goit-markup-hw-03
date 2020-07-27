@@ -15,50 +15,54 @@
   <body>
     <!-- Шапка сайта -->
     <header class="header">
-      <nav class="navigation">
-        <a class="logo" href="./index.html" aria-label="Логотип"
-          >Web <span class="logo-accent">Studio</span></a
-        >
-        <ul class="navgiation-list list">
-          <li class="navigation-list-item">
-            <a class="navigation-list-link link" href="./index.html">Студия</a>
-          </li>
-          <li class="navigation-list-item">
-            <a class="navigation-list-link link" href="./portfolio.html"
-              >Портфолио</a
-            >
-          </li>
-          <li class="navigation-list-item">
-            <a class="navigation-list-link link" href="">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="adress">
-        <ul class="adress-list list">
-          <li class="adress-list-item">
-            <a
-              class="header-email-link link"
-              href="mailto:info@devstudio.com"
-              lang="en"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="adress-list list">
-            <a class="header-tel-link link" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="header-conitaner container">
+        <nav class="navigation">
+          <a class="logo" href="./index.html" aria-label="Логотип"
+            >Web <span class="logo-accent">Studio</span></a
+          >
+          <ul class="navgiation-list list">
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="index.html">Студия</a>
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li class="navigation-list-item">
+              <a class="navigation-list-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="adress">
+          <ul class="adress-list list">
+            <li class="adress-list-item">
+              <a
+                class="header-email-link link"
+                href="mailto:info@devstudio.com"
+                lang="en"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="adress-list-item">
+              <a class="header-tel-link link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
-      <h1 hidden>Портфолио</h1>
-      <h2 hidden>Навигация по типу работ</h2>
-      <button class="portfolio-button">Все</button>
-      <button class="portfolio-button">Веб-сайты</button>
-      <button class="portfolio-button">Приложения</button>
-      <button class="portfolio-button">Дизайн</button>
-      <button class="portfolio-button">Маркетинг</button>
+      <div class="navigation-container container">
+        <h1 hidden>Портфолио</h1>
+        <h2 hidden>Навигация по типу работ</h2>
+        <button class="portfolio-button">Все</button>
+        <button class="portfolio-button">Веб-сайты</button>
+        <button class="portfolio-button">Приложения</button>
+        <button class="portfolio-button">Дизайн</button>
+        <button class="portfolio-button">Маркетинг</button>
+      </div>
       <h2 hidden>Блок работ</h2>
       <ul class="portfolio-list">
         <li class="portfolio-list-item">
@@ -228,49 +232,75 @@
       </ul>
     </main>
     <!--Контакты-->
-    <footer>
-      <a class="logo" href="./index.html" aria-label="Логотип"
-        >Web <span class="logo-footer-accent">Studio</span></a
-      >
-      <ul class="footer-adress-list list">
-        <li class="footer-adress-item">
-          <a
-            class="footer-adress link"
-            href="https://goo.gl/maps/bMKYZDrt7HzqNCvu6"
-            target="_blank"
+    <footer class="footer">
+      <div class="footer-container container">
+        <div>
+          <a class="logo footer-logo" href="./index.html" aria-label="Логотип"
+            >Web <span class="logo-footer-accent">Studio</span></a
           >
-            г. Киев, пр-т Леси Украинки, 26
-          </a>
-        </li>
-        <li class="footer-adress-item">
-          <a
-            class="footer-email link"
-            href="mailto:info@devstudio.com"
-            lang="en"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="footer-adress-item">
-          <a class="footer-tel link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
-      </ul>
-      <b class="footer-title">присоединяйтесь</b>
-      <ul>
-        <li>
-          <a class="link" href="" aria-label="ссылка на инстаграм">Instagram</a>
-        </li>
-        <li>
-          <a class="link" href="" aria-label="ссылка на твиттер">Twitter</a>
-        </li>
-        <li>
-          <a class="link" href="" aria-label="ссылка на фейсбук">Facebook</a>
-        </li>
-        <li>
-          <a class="link" href="" aria-label="ссылка на линкедин">LinkeIn</a>
-        </li>
-      </ul>
+          <ul class="footer-adress-list list">
+            <li class="footer-adress-item">
+              <a
+                class="footer-adress link"
+                href="https://goo.gl/maps/bMKYZDrt7HzqNCvu6"
+                target="_blank"
+              >
+                г. Киев, пр-т Леси Украинки, 26
+              </a>
+            </li>
+            <li class="footer-adress-item">
+              <a
+                class="footer-email link"
+                href="mailto:info@devstudio.com"
+                lang="en"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="footer-adress-item">
+              <a class="footer-tel link" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <b class="footer-title">присоединяйтесь</b>
+          <ul class="footer-social-links-list list">
+            <li class="footer-social-link-item">
+              <a
+                class="footer-social-links-link link"
+                href=""
+                aria-label="ссылка на инстаграм"
+                >Instagram</a
+              >
+            </li>
+            <li class="footer-social-link-item">
+              <a
+                class="footer-social-links-link link"
+                href=""
+                aria-label="ссылка на твиттер"
+                >Twitter</a
+              >
+            </li>
+            <li class="footer-social-link-item">
+              <a
+                class="footer-social-links-link link"
+                href=""
+                aria-label="ссылка на фейсбук"
+                >Facebook</a
+              >
+            </li>
+            <li class="footer-social-link-item">
+              <a
+                class="footer-social-links-link link"
+                href=""
+                aria-label="ссылка на линкедин"
+                >LinkeIn</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
