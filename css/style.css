@@ -350,7 +350,6 @@ body {
 .portfolio-list {
   margin-top: 50px;
   margin-bottom: 94px;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
 }
