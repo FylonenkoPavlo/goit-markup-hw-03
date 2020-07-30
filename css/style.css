@@ -319,6 +319,14 @@ body {
   padding-bottom: 60px;
 }
 
+.footer-block {
+  width: 270px;
+}
+
+.footer-block:not(:last-child) {
+  margin-right: 30px;
+}
+
 .footer-logo {
   display: block;
   padding-bottom: 20px;
@@ -429,8 +437,15 @@ body {
 }
 
 .portfolio-list-card {
+  width: 370;
   display: block;
-  border: 0.5px solid #eeeeee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .portfolio-list-card:nth-child(3n),
@@ -459,10 +474,8 @@ body {
 }
 
 .portfolio-list-header {
-  margin-top: 20px;
+  margin: 0;
   margin-bottom: 4px;
-  margin-left: 24px;
-  margin-right: 24px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -473,10 +486,7 @@ body {
 }
 
 .portfolio-list-project-type {
-  margin-top: 0;
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin: 0;
   font-size: 16px;
   line-height: 1.87;
 }
